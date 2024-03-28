@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50C6CD9E-B3FC-4B32-81C0-9DEC82D04D6C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AsCoursework</RootNamespace>
+    <AssemblyName>AsCoursework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAQuestion.cs" />
+    <Compile Include="Admin.cs" />
+    <Compile Include="Capitals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitals.Designer.cs">
+      <DependentUpon>Capitals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapitalsTest.cs" />
+    <Compile Include="ConfirmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmDelete.Designer.cs">
+      <DependentUpon>ConfirmDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomException.cs" />
+    <Compile Include="FileHandling.cs" />
+    <Compile Include="AddQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddQuestion.Designer.cs">
+      <DependentUpon>AddQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuessFlag.cs" />
+    <Compile Include="GuessTheFlag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuessTheFlag.Designer.cs">
+      <DependentUpon>GuessTheFlag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuessTheFlagInstructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuessTheFlagInstructions.Designer.cs">
+      <DependentUpon>GuessTheFlagInstructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboard.cs" />
+    <Compile Include="Leaderboards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leaderboards.Designer.cs">
+      <DependentUpon>Leaderboards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchQuiz.Designer.cs">
+      <DependentUpon>MatchQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MixAndMatch.cs" />
+    <Compile Include="MultipleChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleChoice.Designer.cs">
+      <DependentUpon>MultipleChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleChoiceTest.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Profile_Settings.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Question.cs" />
+    <Compile Include="QuestionManager.cs" />
+    <Compile Include="QuizSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizSummary.Designer.cs">
+      <DependentUpon>QuizSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashscreen.Designer.cs">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrueFalse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrueFalse.Designer.cs">
+      <DependentUpon>TrueFalse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrueOrFalse.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSettings.Designer.cs">
+      <DependentUpon>UserSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validation.cs" />
+    <Compile Include="_Login.cs" />
+    <EmbeddedResource Include="Capitals.resx">
+      <DependentUpon>Capitals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmDelete.resx">
+      <DependentUpon>ConfirmDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddQuestion.resx">
+      <DependentUpon>AddQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuessTheFlag.resx">
+      <DependentUpon>GuessTheFlag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuessTheFlagInstructions.resx">
+      <DependentUpon>GuessTheFlagInstructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leaderboards.resx">
+      <DependentUpon>Leaderboards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchQuiz.resx">
+      <DependentUpon>MatchQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleChoice.resx">
+      <DependentUpon>MultipleChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuizSummary.resx">
+      <DependentUpon>QuizSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resex</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TrueFalse.resx">
+      <DependentUpon>TrueFalse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSettings.resx">
+      <DependentUpon>UserSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\Questions.csv" />
+    <None Include="Properties\DataSources\AsCoursework.Properties.Images.datasource" />
+    <None Include="Properties\DataSources\AsCoursework.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\AsCoursework.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Leaderboards.datasource" />
+    <None Include="Properties\Images.resex">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="bin\Debug\Users.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coursework background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bigger image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-crossed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldDrawing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldDrawing-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mexico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mexico-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brazil_jpeg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\german-grunge-flag-vector-9543875-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_96445908_JQ8jDuGIsksF4khnbrg4IVflbRv6e8co-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53c0c4f3fb668919ac2a14532b90140c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finland-flag-is-depicted-in-liquid-watercolor-style-isolated-on-white-background-photo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-981739772-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-drawn-national-flag-of-denmark-isolated-vector-22647706.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-drawn-national-flag-of-denmark-isolated-vector-22647706-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranking-podium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-sliders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messages-question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-past.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileOne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileThree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileTwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileFive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileFour.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRofileFIve %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileFour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileThreee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagFOUR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagNINE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagSEVENTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagSIXTEEN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagTHIRTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagTWELVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagTWO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageFIFTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageFOURTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageSEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageSIX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageTEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageTHREE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagEIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagEIGHTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagELEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyImageONE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyFlagFive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagELEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagFIFTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagFIVE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagFOUR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagFOURTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagNINE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagONE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagSEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagSEVENTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagSIX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagSIXTEEN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagTEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagTHIRTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagTHREE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagTWELEVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagTWO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntermediateFlagEIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardSyriaTHIRTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardTaiwanTEN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarduzbekistanONE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardYemanFOURTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardZambiaSIX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardAngolaFIVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardBoliviaEIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardCambodiaSIXTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardCubaSEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardEthiopiaFIFTEEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardGuyanaELEVEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardHatiNINE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardIndonesiaTHREE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardMaliFOUR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardSriLankaTWO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardSudanTWELEVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\False.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart-histogram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFijiTHREE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFlagBarbadosTEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFlagBelizeNine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFlagPhilippinesSEVEN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFlagVanuatuEIght.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertFlagWesternSaharaSIX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertLaosTWO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertMAdagascarFIVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertMongoliaONE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpertstLuciaFour.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

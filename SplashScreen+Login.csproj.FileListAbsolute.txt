@@ -1,0 +1,12 @@
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\bin\Debug\SplashScreen+Login.exe.config
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\bin\Debug\SplashScreen+Login.exe
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\bin\Debug\SplashScreen+Login.pdb
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen+Login.csproj.AssemblyReference.cache
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen_Login.Properties.Resources.resources
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen+Login.csproj.GenerateResource.cache
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen+Login.csproj.CoreCompileInputs.cache
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen+Login.exe
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen+Login.pdb
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen_Login.Login.resources
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen_Login.Register.resources
+C:\Users\my name\Documents\SplashScreen+Login\SplashScreen+Login\obj\Debug\SplashScreen_Login.Splashscreen.resources

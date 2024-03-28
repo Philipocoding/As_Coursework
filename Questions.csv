@@ -1,0 +1,112 @@
+C3, In which continent is the Sahara Desert primarily located?, Africa, Asia , South America , Australia                                                      
+B1, What is the capital of France?, Paris
+B3, What is the capital of Japan?, Tokyo
+B6, What is the capital of India?, New Delhi
+B7, What is the capital of South Africa?, Pretoria
+B8, What is the capital of Mexico?, Mexico City
+B9, What is the capital of Russia?, Moscow
+B10, What is the capital of China?, Beijing
+B11, What is the capital of Italy?, Rome
+B12, What is the capital of Argentina?, Buenos Aires
+B13, What is the capital of South Korea?, Seoul
+B14, What is the capital of Egypt?, Cairo
+A1,1,2,ireland
+A2,1,3,germany
+A3,1,4,netherlands
+A6,1,1,south africa
+A26,1,5,brazil
+A27,1,6,argentina
+A28,1,7,italy
+A29,1,8,russia
+A30,1,9,portugal
+A31,1,10,denmark
+A32,1,11,finland
+A33,1,12,sweeden
+A34,1,13,croatia
+A35,1,14,france
+A37,1,16,belgium
+A38,1,17,greece
+A38,1,18,ukraine
+E1,Paris,Capital
+E2,Russia,Exclave
+E3,Blue Lagoon,Iceland
+E4,Gibraltar,Rock
+E5,Black Sea,North of Turkey
+E6,Floating Markets,Thailand
+E7,Andes,South America
+E8, Mount Kilimanjaro, Tanzania
+E9, Great Barrier Reef, Australia
+E10, Serengeti, Tanzania
+E11, Sahara Desert, Africa
+D4,Mount Everest is the tallest mountain on Earth?,True
+D5,The Great Barrier Reef is located in the Caribbean Sea?,false
+D6,Japan is composed of four main islands?,true
+D7,The Sahara Desert is the largest hot desert in the world?,true
+D8,The equator passes through Saudi Arabia?,false
+D9,The United Kingdom is made up of England Scotland and Ireland?,false
+D10,The city of Istanbul is located in two continents: Europe and Asia?,true
+D11,The Pacific Ocean is the largest ocean on Earth?,true
+D12,The country of Denmark is located in Eastern Europe?,false
+D13,The capital of Canada is Toronto?,false
+D14,The Andes mountain range is the longest in the world?,false
+C2, Which river is the longest in the world?, Nile, Amazon , Mississippi , Ganges                                         
+C4,What is the name of the ocean between America and Europe?,Atlantic, Pacific , Mediterranean , Oceanic                      
+C5,How many states does America have?,50, 52 , 51 , 53                    
+D15,Is there is a sea below sea level?,true
+C6,How many countries does Russia touch?,14, 10 , 15 , 12     
+C7,where is the largest rock in the word located?,Australia, America , Russia , Africa    
+C8,What precent of the world's population lives in the northern hemisphere?,90%, 76% ,  80%  ,  60%   
+C9,How many Times has it snowed in the Sahara desert?,6,  2  ,  4  ,  5  
+C10, What is the capital of France?,Paris, Berlin , Rome, Madrid 
+D17,The capital of Australia is Sydney?,False
+B5, What is the capital of Canada?,Ottowa
+B2, What is the capital of Brazil?, Brasilia
+A10,3,1,Uzbekistan
+A11,3,2,Sri Lanka
+A12,3,3,Indonesia
+A13,3,4,Mali
+A14,3,5,Angola
+A15,3,6,Zambia
+A16,3,7,Cuba
+A17,3,8,Bolivia
+A18,3,9,Hati
+A19,3,10,Taiwan
+A20,3,11,Guyana
+A21,3,12,Sudan
+A22,3,13,Syria
+A23,3,14,Yeman
+A24,3,15,Ethiopia
+A25,3,16,Cambodia
+A40,2,2,kazakhstan
+A41,2,3,iceland
+A42,2,4,chile
+A43,2,5,belarus
+A44,2,6,estonia
+A45,2,7,austria
+A46,2,8,lithuania
+A47,2,9,comombia
+A48,2,10,bulgaria
+A49,2,11,saudi arabia
+A50,2,12,peru
+A51,2,13,india
+A52,2,14,japan
+A53,2,15,south korea
+A52,4,1,Mongolia
+A53,4,2,Laos
+A54,4,3,fiji
+A55,4,4,st lucia
+A56,4,5,Madagascar
+A57,4,6,western sahara
+A58,4,7,Philippines
+A59,4,8,Vanuatu
+A60,4,9,Belize
+A61,4,10,Barbados
+C11,What continent is the amazon in, South America,Africa,Asia,Europe
+C12,What is the smallest country in the world by land area?,Vatican City, Monaco,Northern Ireland,San Marino
+C13,Which country is known as the Land of the Rising Sun?,Japan,Maldives,India,South Africa
+C14,What type of mountains are the Himalayas?, Fold Mountains, Rise Mountains, Sedimentary Mountains,Metamorphic Mountains
+C15,Which continent is the largest by land area?,Asia,South Africa,Africa,Europe
+A36,1,15,nigeria
+C1,How any Counties does Ireland have?,32,30,33,29
+C1,How any Counties does Ireland have?,32,30,29,33
+A39,2,1,mexico
